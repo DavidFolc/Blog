@@ -27,7 +27,6 @@ class App extends Component {
       <div className="App">
         <Navbar/>
         {this.state.post.map(post => <Post id={post.id} title={post.title} body={post.body} />)}
-
       </div>
     );
   }
